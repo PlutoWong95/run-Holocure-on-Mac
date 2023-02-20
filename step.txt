@@ -29,4 +29,4 @@ brew install --cask --no-quarantine gcenx/wine/wine-crossover
 7.嘗試運行holocure
 
 已知可能會出現的bug:
-大量小怪出沒時會出現遊戲變慢的情況，可以透過調教遊戲顯示在很大程度上解決問題
+大量小怪出沒時會出現遊戲變慢的情況，可以透過調整遊戲內的顯示設定在很大程度上解決問題
