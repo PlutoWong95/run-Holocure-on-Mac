@@ -1,0 +1,32 @@
+1.開啟終端機
+
+2.首先在終端機上運行 brew --version  查看你的電腦是否已經安裝了homebrew
+
+	-如果顯示 zsh: command not found: brew 代表你電腦未安裝homebrew
+
+	-如果顯示 Homebrew x.x.x代表你已經安裝了homebrew可以跳到第4步
+
+3.通過指令安裝Homebrew
+
+3.1 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+3.1.2輸入你的密碼
+
+3.2 
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/hangkitwong/.zprofile
+
+3.3 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+4.通過Homebrew 安裝wine-crossover
+brew install --cask --no-quarantine gcenx/wine/wine-crossover
+
+5.嘗試運行wine-crossover
+
+6.下載holocure
+
+7.嘗試運行holocure
+
+已知可能會出現的bug:
+大量小怪出沒時會出現遊戲變慢的情況，可以透過調教遊戲顯示在很大程度上解決問題
